@@ -5,7 +5,7 @@ import Home from "./pages/index/index.jsx";
 
 function App() {
   return (
-      <div>
+      <div className='h-screen'>
         <Routes>
           <Route element={<Home />} path="/"/>
 
